@@ -1,0 +1,26 @@
+body {
+    background-color: #1b1b32; /* Dark background */
+    color: white;
+    font-family: sans-serif;
+    text-align: center; /* Centers everything */
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 80px; /* Huge number */
+    margin: 20px 0;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #f1c40f; /* Yellow button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #d4ac0d; /* Darker yellow when clicking */
+}

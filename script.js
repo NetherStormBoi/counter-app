@@ -1,3 +1,5 @@
+const clearBtn = document.getElementById("clear-btn")
+
 // 1. Initialise the count as 0
 let count = 0
 
@@ -13,6 +15,12 @@ function increment() {
 
 }
 
+clearBtn.addEventListener('dblclick', function() {
+    saveEl.textContent = ""
+    countEl.innerText = 0;
+    count = 0;
+
+})
 // 1. grab the save-el paragraph and store it in a variable
 let saveEl = document.getElementById("save-el")
 
@@ -29,3 +37,4 @@ function save() {
     count = 0;
 
 }
+
